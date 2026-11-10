@@ -73,7 +73,7 @@ fun Practica08Inicio(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .weight(1f)
                 .fillMaxWidth()
-                .background(Color.Red)
+                .background(Color.White)
         ) {
 
             itemsIndexed(listaNombres) { indice, nombre ->
