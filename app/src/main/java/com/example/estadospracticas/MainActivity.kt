@@ -12,7 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.estadospracticas.ui.theme.EstadosPracticasTheme
-import com.example.practicasandroidstudio.ui.theme.screens.Practica05Inicio
+import com.example.myapplication.EscribirScreen
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,10 +21,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             EstadosPracticasTheme {
-                Practica05Inicio()
+                EscribirScreen()
             }
         }
     }
+
+    annotation class Practica05Inicio
 }
 
 @Composable
